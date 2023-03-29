@@ -49,7 +49,6 @@ Although the data set has provided the actual property damages for 2020, this do
 <h6 align="center"> Figure 1: Boxplot of Total Expected Damages for 2020 </h6>
 
 
----
 
 ### Calculating Involuntary Relocation (Emergency Displacement) Costs
 
