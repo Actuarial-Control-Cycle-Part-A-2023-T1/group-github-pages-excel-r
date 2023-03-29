@@ -45,11 +45,11 @@ The modelling for expected property damages was split into frequency and severit
 Although the data set has provided the actual property damages for 2020, this does not reflect its ‘expected’ value due to the high variance nature of climate-related catastrophes each year. One-hundred bootstrapped models were trained with the optimised parameters to predict frequency and severity of climate-related catastrophes for 2020. The corresponding set of predictions were then multiplied to obtain 100 predictions, shown in Figure 1 below. A 95% confidence interval was calculated to be used for the construction of the program pricing and costs. See Appendix C (Figure 14) for the average predictions and the 95% confidence interval. Climate-related catastrophes were also split into minor, medium and major severities with breakpoints at Ꝕ500,000 and Ꝕ5,000,000.
 
 <p align="center"> 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228497774-851513ea-cfb7-48d1-baf1-4308ca92c1f4.png">
+<img src="https://user-images.githubusercontent.com/124782714/228497774-851513ea-cfb7-48d1-baf1-4308ca92c1f4.png">
 </p>
 
 <h6 align="center"> 
-Figure 1: Boxplot of Total Expected Damages for 2020 
+< Figure 1: Boxplot of Total Expected Damages for 2020 >
 </h6>
 
 
