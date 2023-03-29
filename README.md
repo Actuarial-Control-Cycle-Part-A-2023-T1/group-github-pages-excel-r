@@ -86,9 +86,13 @@ The costs with the program are examined as two components:
 
 ### Population Forecast with the Program
 The cost projection model stems from a population forecast model. Starting with the 2020 census data as the base population, it is predicted that 0.5% of the population from Region 2 (high-risk) and 0.25% from Region 1 (medium-risk) will voluntarily move to the low-risk regions (Regions 3, 4, 5, 6) every year from 2020 to 2030. The above percentages are estimated using various survey data regarding individuals’ willingness to move from disaster- prone areas. Assumptions regarding individuals’ response towards relocation beyond 2030 should be made when further data becomes available. Hence, no migration has been included in the model beyond 2023 in this analysis. The population forecast model incorporates the voluntary movement induced by the program as well as the projected organic population growth as set out in each SSP scenario. The below graph captures a snapshot of how this population forecast model functions:
+
 <p align="center"> 
+
 <img src="https://user-images.githubusercontent.com/124782714/228501891-cbf5fea8-dd8b-49f1-a366-2b4b8eaef6ba.png">
+
 </p>
+
 
 The number of households in each region in a particular year (say 2020) is derived by dividing the population by the average number of people per household. The average number of people per household is assumed to be stable over time. The number of vacant housing units is estimated by deducting the number housing units by the number of households.
 Every year, the number of population outflow from Region 1 and 2 are allocated to low-risk regions according to the proportion of vacant housing units in low-risk regions.
@@ -199,9 +203,12 @@ There is risk that inflation will be higher or lower than expected, resulting in
  <p align="center"> 
  <img src="https://user-images.githubusercontent.com/124782714/228506498-7b2b1e45-be7c-44dc-8b24-38950a3d2d1e.png">
  </p>
+ 
  <h6 align="center"> 
  <Figure 8: Sensitivity Analysis – Program Cost as % of GDP (SSP5)>
  </h6>
+ 
+ 
 
 ## Data and Data Limitations
 ### Errors and Inaccuracies
