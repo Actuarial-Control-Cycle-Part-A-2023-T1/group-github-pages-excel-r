@@ -49,6 +49,8 @@ Although the data set has provided the actual property damages for 2020, this do
 <h6 align="center"> Figure 1: Boxplot of Total Expected Damages for 2020 </h6>
 
 
+---
+
 ## Calculating Involuntary Relocation (Emergency Displacement) Costs
 
 The overall costs associated with involuntary relocation comprises the following: Expected Property Damages, Involuntary Displacement, Healthcare, Food Service, Transportation and Covering Household Goods.
@@ -68,6 +70,7 @@ Covering Household Goods: Household goods are estimated to be 40 – 75% of prop
 
 In Figure 2 shown above, we can see exponential trends for involuntary costing for high emissions scenario (i.e. SSP3 and SSP5) and will most likely exceed 10% of Storslysia’s GDP after 2100. 
 
+----
 
 ## With Program Costing
 
@@ -82,6 +85,8 @@ The cost projection model stems from a population forecast model. Starting with 
 The number of households in each region in a particular year (say 2020) is derived by dividing the population by the average number of people per household. The average number of people per household is assumed to be stable over time. The number of vacant housing units is estimated by deducting the number housing units by the number of households.
 Every year, the number of population outflow from Region 1 and 2 are allocated to low-risk regions according to the proportion of vacant housing units in low-risk regions.
 The Census data of the next year will then consider the population inflow and outflow on top of the organic population growth. In the meantime, the total housing units every year are calculated using a constant housing unit growth rate, estimated using the number of building permits in 2021. Applying the same process, the Census data can be forecasted recursively.
+
+
 ## Relocation Incentive Package
 The program provides a benefit package to incentivise residents to migrate from high and medium-risk regions. This package will include:
 1. A 10% reimbursement of the resident’s permanent housing cost.
