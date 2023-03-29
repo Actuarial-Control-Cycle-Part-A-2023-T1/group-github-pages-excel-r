@@ -260,3 +260,5 @@ Due to the prototypical nature of the program, there were issues in estimating c
 The aim of this program was to reduce emergency displacement-related costs. The increasing frequency and severity of climate-related catastrophes will cause significant consequences to households, both financially and psychologically in the long term. As such, our main initiative was to relocate citizens from higher risk regions, specifically Regions 1 and 2 into lower risk regions. The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years.
 
 
+
+
