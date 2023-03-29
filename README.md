@@ -76,7 +76,7 @@ Covering Household Goods: Household goods are estimated to be 40 – 75% of prop
 
 In Figure 2 shown above, we can see exponential trends for involuntary costing for high emissions scenario (i.e. SSP3 and SSP5) and will most likely exceed 10% of Storslysia’s GDP after 2100. 
 
-----
+
 
 ### With Program Costing
 
