@@ -67,7 +67,8 @@ For example, a minor hazard is estimated to have on average a 10% price surge on
 Healthcare, Food Service, Transportation: This was similarly calculated using the same method as Involuntary Displacement. However, the provided data shows healthcare, food service and transportation for 2017. As such, we projected these values to 2020 using the given inflation data. 
 Covering Household Goods: Household goods are estimated to be 40 – 75% of property damages. Different hazard severities were given appropriate loadings. For example, minor hazards would require 40% of property damages to cover household goods, medium hazards would require 57.5%, and major hazards would require 75%. Note that inflation has been accounted for all relevant costings.
 
-<p align="center"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228501019-009f2f70-90a4-4100-9515-c11abdcec632.png">
+<p align="center"> 
+<img src="https://user-images.githubusercontent.com/124782714/228501019-009f2f70-90a4-4100-9515-c11abdcec632.png">
 
 <h6 align="center"> 
 <Figure 2: Involuntary Relocation Costing under no Program represented as a % of Storslysia’s GDP>
@@ -86,7 +87,7 @@ The costs with the program are examined as two components:
 ### Population Forecast with the Program
 The cost projection model stems from a population forecast model. Starting with the 2020 census data as the base population, it is predicted that 0.5% of the population from Region 2 (high-risk) and 0.25% from Region 1 (medium-risk) will voluntarily move to the low-risk regions (Regions 3, 4, 5, 6) every year from 2020 to 2030. The above percentages are estimated using various survey data regarding individuals’ willingness to move from disaster- prone areas. Assumptions regarding individuals’ response towards relocation beyond 2030 should be made when further data becomes available. Hence, no migration has been included in the model beyond 2023 in this analysis. The population forecast model incorporates the voluntary movement induced by the program as well as the projected organic population growth as set out in each SSP scenario. The below graph captures a snapshot of how this population forecast model functions:
 <p align="center"> 
-<img width="800" alt="image" src="https://user-images.githubusercontent.com/124782714/228501891-cbf5fea8-dd8b-49f1-a366-2b4b8eaef6ba.png">
+<img src="https://user-images.githubusercontent.com/124782714/228501891-cbf5fea8-dd8b-49f1-a366-2b4b8eaef6ba.png">
 </p>
 
 The number of households in each region in a particular year (say 2020) is derived by dividing the population by the average number of people per household. The average number of people per household is assumed to be stable over time. The number of vacant housing units is estimated by deducting the number housing units by the number of households.
@@ -125,7 +126,7 @@ The projection of the involuntary displacement costs with the program utilises t
 The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years. This reduction is observed across various emission scenarios but is particularly significant in high-emissions cost scenarios such as SSP3 and SSP5 over the long-term. This demonstrates the efficacy of the program in reducing the adverse economic impacts of climate hazards and mitigating their effects in severity scenarios.
 
 <p align="center"> 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228504835-537f0570-9e49-42e7-9927-71fab882ca00.png">
+<img src="https://user-images.githubusercontent.com/124782714/228504835-537f0570-9e49-42e7-9927-71fab882ca00.png">
 </p>
 
 <h6 align="center"> 
@@ -137,7 +138,7 @@ Under the high emission scenario in 2030, the approximate amount of capital to b
 To maintain the program's solvency in the long term, up to 2100, a total capital amount of around 579 billion is predicted to be required. This amount is calculated by taking into account the various cost factors and risk margins associated with the program, and it serves as an important consideration in ensuring its continued effectiveness and sustainability. Overall, even under the worst-case scenario, the capital required to hold in the program is below 0.05% of GDP.
 
 <p align="center">  
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228505036-ecb08a30-2c06-4a68-adb6-91504f0dbf46.png">
+<img src="https://user-images.githubusercontent.com/124782714/228505036-ecb08a30-2c06-4a68-adb6-91504f0dbf46.png">
 </p>
 
 <h6 align="center"> 
@@ -150,7 +151,7 @@ To maintain the program's solvency in the long term, up to 2100, a total capital
 A time series analysis on the provided inflation data showed no clear trends, seen below in Figure 5. As such, future levels of inflation were assumed to be a constant, where this constant was calculated by taking the historical average of inflation.
 
 <p align="center"> 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228505331-5eaab29a-80dc-4b1c-9e5c-107a29a87cae.png">
+<img src="https://user-images.githubusercontent.com/124782714/228505331-5eaab29a-80dc-4b1c-9e5c-107a29a87cae.png">
 </p>
 
 <h6 align="center"> 
@@ -168,7 +169,7 @@ All given data were assumed to be statistical data from 2020 unless stated other
 ## Risk and Risk Mitigation
 
 <p align="center"> 
-<img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228505642-5ccfdd69-8dfb-4565-9cbc-c3b2a948f367.png">
+<img src="https://user-images.githubusercontent.com/124782714/228505642-5ccfdd69-8dfb-4565-9cbc-c3b2a948f367.png">
 </p>
 
 <h6 align="center"> 
@@ -184,7 +185,7 @@ The frequency of climate disasters may be greater than anticipated. Under these 
 More people than expected may opt to use the program which could jeopardise its financial feasibility, resulting in a program which is more expensive than current policies in place. This would render the program useless in its goal to provide a cost-effective solution to relocation. To address this, we modelled costs to account for changes in population due to relocation. We performed sensitivity analyses to determine the efficacy of this adjustment by comparing the relative difference in involuntary relocation costs with and without the program (see Figure 7). Our analysis finds that involuntary relocation costs under the program are overall cheaper, regardless of the level of people relocating or SSP scenario.
 
  <p align="center"> 
- <img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228506279-1b4a39d8-db15-4c46-9144-d8da52be6d7c.png">
+ <img src="https://user-images.githubusercontent.com/124782714/228506279-1b4a39d8-db15-4c46-9144-d8da52be6d7c.png">
  </p>
 
 <h6 align="center"> 
@@ -196,7 +197,7 @@ More people than expected may opt to use the program which could jeopardise its 
 There is risk that inflation will be higher or lower than expected, resulting in the total relocation program exceeding budget constraints. If the costs become too high, this could also affect the viability of other expenditure items Storslysia is committed to delivering - weakening the economy and creating political risk for the current government. To address this, we conducted sensitivity analyses to determine the impact of changing inflation rates (see Figure 8). The program exceeds 10% of GDP at high inflation rates in the distant future (2090 and onwards). To mitigate this risk, Storslysia should closely monitor inflation throughout the years and anticipate the need to cover for the shortfall if necessary, such as through raising taxes.
 
  <p align="center"> 
- <img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228506498-7b2b1e45-be7c-44dc-8b24-38950a3d2d1e.png">
+ <img src="https://user-images.githubusercontent.com/124782714/228506498-7b2b1e45-be7c-44dc-8b24-38950a3d2d1e.png">
  </p>
  <h6 align="center"> 
  <Figure 8: Sensitivity Analysis – Program Cost as % of GDP (SSP5)>
