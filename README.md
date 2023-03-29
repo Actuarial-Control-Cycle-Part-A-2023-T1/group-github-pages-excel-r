@@ -28,16 +28,17 @@ We propose the program be evaluated yearly for 5 years, before being evaluated o
 ---
 The economic costs are projected over both a short-term and a long-term timeframe. In the short-term, the costs with and without the program are forecasted on an annual basis from 2021 to 2030. Henceforth the costs are projected every decade until 2100.
 The economic cost of a climate hazard event is a complex phenomenon that is influenced by several factors, including the severity and duration of the event, the location and extent of the damage, and the economic and social structures in the affected area. The costs can be direct or indirect, and in this study, we investigate the economic costs of climate hazards in terms of:
-• property damage,
-• displacement and relocation costs,
-• healthcare and social assistance costs,
-• transportation and warehousing costs, and
-• food service.
+* property damage,
+* displacement and relocation costs,
+* healthcare and social assistance costs,
+* transportation and warehousing costs, and
+*  food service.
+
 To estimate the costs associated with property damage, we use Extreme Gradient Boosting to estimate the damage in different regions:
 
 ## Property Damage Forecast with Extreme Gradient Boosting
 In the provided dataset, there were many different categories of ‘Hazard Events’ (50 different categories after cleaning the data), with many of them containing multiple climate-related catastrophes. This resulted in many dimensions when modelling and thus, a priority list for climate-related catastrophes was constructed where the ‘Hazard Event’ will take the name of the climate-related catastrophe placed highest on the priority list. See Appendix A for the priority list. This allowed 50 climate event categories to be reduced to 13.
-The modelling for expected property damages was split into frequency and severity, both using XGBoost. The Tweedie Distribution was used as the objective function to minimise due to its ability to model count data and account for high number of zeros. The parameters were tuned using a Random Search to optimise for 5-fold cross validation and the R-squared metric was utilised for the testing set. The severity modelling was a similar process, with duration, injuries and fatalities as added variables, and the objective function to be minimised was Gamma Distribution due to its ability to model skewed data containing high severity amounts. The R-squared values obtained from the testing set were 0.42 and 0.52 respectively. See [code](sample-data-clean.ipynb) for optimised parameters and importance of variables. 
+The modelling for expected property damages was split into frequency and severity, both using XGBoost. The Tweedie Distribution was used as the objective function to minimise due to its ability to model count data and account for high number of zeros. The parameters were tuned using a Random Search to optimise for 5-fold cross validation and the R-squared metric was utilised for the testing set. The severity modelling was a similar process, with duration, injuries and fatalities as added variables, and the objective function to be minimised was Gamma Distribution due to its ability to model skewed data containing high severity amounts. The R-squared values obtained from the testing set were 0.42 and 0.52 respectively. See [code](modelling.R) for optimised parameters and importance of variables. 
 
 ## Expected Property Damages for 2020
 
@@ -149,7 +150,7 @@ The frequency of climate disasters may be greater than anticipated. Under these 
 
 ## Implementation Risk - More people than expected use of the program
 
-More people than expected may opt to use the program which could jeopardise its financial feasibility, resulting in a program which is more expensive than current policies in place. This would render the program useless in its goal to provide a cost-effective solution to relocation. To address this, we modelled costs to account for changes in population due to relocation. We performed sensitivity analyses to determine the efficacy of this adjustment by comparing the relative difference in involuntary relocation costs with and without the program (see Figure 7 and [data](Workbook_1- with_program.xlsx)). Our analysis finds that involuntary relocation costs under the program are overall cheaper, regardless of the level of people relocating or SSP scenario.
+More people than expected may opt to use the program which could jeopardise its financial feasibility, resulting in a program which is more expensive than current policies in place. This would render the program useless in its goal to provide a cost-effective solution to relocation. To address this, we modelled costs to account for changes in population due to relocation. We performed sensitivity analyses to determine the efficacy of this adjustment by comparing the relative difference in involuntary relocation costs with and without the program (see Figure 7). Our analysis finds that involuntary relocation costs under the program are overall cheaper, regardless of the level of people relocating or SSP scenario.
 
  <p align="center"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228506279-1b4a39d8-db15-4c46-9144-d8da52be6d7c.png">
 
@@ -157,7 +158,7 @@ More people than expected may opt to use the program which could jeopardise its 
 
 ## Inflation Rate Risk
 
-There is risk that inflation will be higher or lower than expected, resulting in the total relocation program exceeding budget constraints. If the costs become too high, this could also affect the viability of other expenditure items Storslysia is committed to delivering - weakening the economy and creating political risk for the current government. To address this, we conducted sensitivity analyses to determine the impact of changing inflation rates (see Figure 8 and Appendix E). The program exceeds 10% of GDP at high inflation rates in the distant future (2090 and onwards). To mitigate this risk, Storslysia should closely monitor inflation throughout the years and anticipate the need to cover for the shortfall if necessary, such as through raising taxes.
+There is risk that inflation will be higher or lower than expected, resulting in the total relocation program exceeding budget constraints. If the costs become too high, this could also affect the viability of other expenditure items Storslysia is committed to delivering - weakening the economy and creating political risk for the current government. To address this, we conducted sensitivity analyses to determine the impact of changing inflation rates (see Figure 8). The program exceeds 10% of GDP at high inflation rates in the distant future (2090 and onwards). To mitigate this risk, Storslysia should closely monitor inflation throughout the years and anticipate the need to cover for the shortfall if necessary, such as through raising taxes.
 
  <p align="center"> <img width="500" alt="image" src="https://user-images.githubusercontent.com/124782714/228506498-7b2b1e45-be7c-44dc-8b24-38950a3d2d1e.png">
 
