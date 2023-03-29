@@ -48,6 +48,7 @@ Although the data set has provided the actual property damages for 2020, this do
 
 <h6 align="center"> Figure 1: Boxplot of Total Expected Damages for 2020 </h6>
 
+
 ## Calculating Involuntary Relocation (Emergency Displacement) Costs
 
 The overall costs associated with involuntary relocation comprises the following: Expected Property Damages, Involuntary Displacement, Healthcare, Food Service, Transportation and Covering Household Goods.
@@ -67,7 +68,9 @@ Covering Household Goods: Household goods are estimated to be 40 – 75% of prop
 
 In Figure 2 shown above, we can see exponential trends for involuntary costing for high emissions scenario (i.e. SSP3 and SSP5) and will most likely exceed 10% of Storslysia’s GDP after 2100. 
 
+
 ## With Program Costing
+
 The costs with the program are examined as two components:
 1. The cost to incentivise residents in the high and medium-risk regions to relocate to low-risk regions. This cost includes: the reimbursement of a percentage of the permanent housing cost incurred as a result of relocation and a lump sum payment to account for the temporary loss of income, food and transportation expenses that may occur as a result of relocation.
 2. The costs associated with involuntary displacement after climate-related disasters. These include the cost of repairing damaged properties and household goods, temporary living arrangements, as well as emergency food, heath care and transportation services.
