@@ -49,7 +49,7 @@ Although the data set has provided the actual property damages for 2020, this do
 </p>
 
 <h6 align="center"> 
-< Figure 1: Boxplot of Total Expected Damages for 2020 >
+ Figure 1: Boxplot of Total Expected Damages for 2020 
 </h6>
 
 
@@ -105,7 +105,7 @@ The Census data of the next year will then consider the population inflow and ou
 
 
 
-### Relocation Incentive Package
+###  Relocation Incentive Package
 The program provides a benefit package to incentivise residents to migrate from high and medium-risk regions. This package will include:
 
 1. A 10% reimbursement of the resident’s permanent housing cost.
@@ -149,11 +149,11 @@ As such the total cost of the relocation inventive for the program is
  
 <br/>
 
-### Involuntary Displacement Costs with the Program
+###  Involuntary Displacement Costs with the Program
 
 The projection of the involuntary displacement costs with the program utilises the same process and modelling as the involuntary cost projection without the program. The difference in the displacement costs originates from the difference in the Census forecast.
 
-### Impact of the Program
+###  Impact of the Program
 
 The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years. This reduction is observed across various emission scenarios but is particularly significant in high-emissions cost scenarios such as SSP3 and SSP5 over the long-term. This demonstrates the efficacy of the program in reducing the adverse economic impacts of climate hazards and mitigating their effects in severity scenarios.
 
@@ -182,7 +182,7 @@ Figure 4: Capital needed to remain solvent as a % of Storslysia’s GDP
 <br/>
 
 
-# Assumptions
+##  Assumptions
 
 ### Economic Assumptions
 A time series analysis on the provided inflation data showed no clear trends, seen below in Figure 5. As such, future levels of inflation were assumed to be a constant, where this constant was calculated by taking the historical average of inflation.
@@ -218,7 +218,7 @@ All given data were assumed to be statistical data from 2020 unless stated other
 </p>
 
 <h6 align="center"> 
-<Figure 6: Risk Matrix>
+Figure 6: Risk Matrix
 </h6>
 
 <br/>
@@ -237,7 +237,7 @@ More people than expected may opt to use the program which could jeopardise its 
  </p>
 
 <h6 align="center"> 
-<Figure 7: Relocation % Involuntary Difference (SSP5)>
+Figure 7: Relocation % Involuntary Difference (SSP5)
 </h6>
 
 <br/>
@@ -252,7 +252,7 @@ There is risk that inflation will be higher or lower than expected, resulting in
  </p>
  
  <h6 align="center"> 
- <Figure 8: Sensitivity Analysis – Program Cost as % of GDP (SSP5)>
+ Figure 8: Sensitivity Analysis – Program Cost as % of GDP (SSP5)
  </h6>
  
  <br/>
