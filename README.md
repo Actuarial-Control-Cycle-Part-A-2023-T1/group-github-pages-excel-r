@@ -71,8 +71,9 @@ Covering Household Goods: Household goods are estimated to be 40 – 75% of prop
 <img src="https://user-images.githubusercontent.com/124782714/228501019-009f2f70-90a4-4100-9515-c11abdcec632.png">
 
 <h6 align="center"> 
-<Figure 2: Involuntary Relocation Costing under no Program represented as a % of Storslysia’s GDP>
+Figure 2: Involuntary Relocation Costing under no Program represented as a % of Storslysia’s GDP
 </h6>
+
 
 In Figure 2 shown above, we can see exponential trends for involuntary costing for high emissions scenario (i.e. SSP3 and SSP5) and will most likely exceed 10% of Storslysia’s GDP after 2100. 
 
@@ -161,8 +162,10 @@ The implementation of the program has resulted in a notable decline in the invol
 </p>
 
 <h6 align="center"> 
-<Figure 3: Involuntary cost relative % decrease>
+Figure 3: Involuntary cost relative % decrease
 </h6>
+
+<br/>
 
 To account for potential uncertainties and ensure the program's financial stability, we incorporate a 20% risk margin into our calculations. This additional factor takes into consideration any unforeseen risks that may arise and helps to maintain the program's long- term viability. The total capital required to remain solvent is calculated as the sum of the voluntary cost and the involuntary cost multiplied by the risk margin.
 Under the high emission scenario in 2030, the approximate amount of capital to be held to remain solvent is a maximum of 7.448 billion. This is a critical consideration in maintaining the financial sustainability of the program and ensuring that it can continue to provide much- needed support to those affected by climate hazards.
@@ -173,9 +176,10 @@ To maintain the program's solvency in the long term, up to 2100, a total capital
 </p>
 
 <h6 align="center"> 
-<Figure 4: Capital needed to remain solvent as a % of Storslysia’s GDP>
+Figure 4: Capital needed to remain solvent as a % of Storslysia’s GDP
 </h6>
 
+<br/>
 
 
 # Assumptions
@@ -188,18 +192,23 @@ A time series analysis on the provided inflation data showed no clear trends, se
 </p>
 
 <h6 align="center"> 
-<Figure 5: Time Series of Historical Inflation> 
+Figure 5: Time Series of Historical Inflation
 </h6>
 
+<br/>
 
 ### Pricing Assumptions
 Other economic data such as Census and GDP for Storslysia were assumed to follow the global scenarios provided by the IPCC and the values were projected based on the same assumptions. Linear interpolation was conducted between the years of 2020 and 2030 to project economic data for the respective years.
 Expected Property Damages were similarly projected using the IPCC data on the risk amplification factor (RAF). However, an additional assumption was made that the severity of climate-related catastrophes also followed the RAF. Thus, Expected Property Damages was projected by taking the square of the RAF for the corresponding year.
 The program is available for any citizen of Storslysia, however, we assume that only citizens of high risk-regions choose to relocate under risk-averse conjectures.
 
+<br/>
+
 
 ### Data Assumptions
 All given data were assumed to be statistical data from 2020 unless stated otherwise. This included housing units and property value distribution. For data where a time range was given (i.e., Households), we assumed the data reflected the most recent year. Another assumption was that entries with zero property damage still counted as a climate-related catastrophe due to any injuries or fatalities that may have occurred.
+
+<br/>
 
 
 ## Risk and Risk Mitigation
@@ -211,6 +220,8 @@ All given data were assumed to be statistical data from 2020 unless stated other
 <h6 align="center"> 
 <Figure 6: Risk Matrix>
 </h6>
+
+<br/>
 
 
 ### Climate Risk - More climate disasters than anticipated
@@ -229,6 +240,9 @@ More people than expected may opt to use the program which could jeopardise its 
 <Figure 7: Relocation % Involuntary Difference (SSP5)>
 </h6>
 
+<br/>
+
+
 ### Inflation Rate Risk
 
 There is risk that inflation will be higher or lower than expected, resulting in the total relocation program exceeding budget constraints. If the costs become too high, this could also affect the viability of other expenditure items Storslysia is committed to delivering - weakening the economy and creating political risk for the current government. To address this, we conducted sensitivity analyses to determine the impact of changing inflation rates (see Figure 8). The program exceeds 10% of GDP at high inflation rates in the distant future (2090 and onwards). To mitigate this risk, Storslysia should closely monitor inflation throughout the years and anticipate the need to cover for the shortfall if necessary, such as through raising taxes.
@@ -241,6 +255,7 @@ There is risk that inflation will be higher or lower than expected, resulting in
  <Figure 8: Sensitivity Analysis – Program Cost as % of GDP (SSP5)>
  </h6>
  
+ <br/>
  
 
 ## Data and Data Limitations
