@@ -108,24 +108,25 @@ The Census data of the next year will then consider the population inflow and ou
 The program provides a benefit package to incentivise residents to migrate from high and medium-risk regions. This package will include:
 
 1. A 10% reimbursement of the resident’s permanent housing cost.
-
+<br/>
 *  Total projected cost of this benefit in year i will be:
-
+<br/>
   $\sum_{region 3, 4, 5, 6}$ h𝑜𝑢𝑠𝑒h𝑜𝑙𝑑𝑠 𝑖𝑛𝑡𝑜 𝑟𝑒𝑔𝑖𝑜𝑛 𝑡 𝑑𝑢𝑟𝑖𝑛𝑔 𝑦𝑒𝑎𝑟 𝑖 × 𝑝𝑟𝑜𝑝𝑒𝑟𝑡𝑦 𝑐𝑜𝑠𝑡 𝑖𝑛 𝑟𝑒𝑔𝑖𝑜𝑛 𝑡 × 10%
-
+<br/>
 *  Where the number of households moving into region t is estimated as the total number of people migrating into region t $/$ average number of people per household in region t.
-
+<br/>
 *  The property cost is estimated as the weighted average property value in region t, indexed by inflation annually.
-
+<br/>
 2. A lump sum that covers 50% of the households’ expenses associated with relocation in the early stage, e.g., transportation, healthcare, food and accommodation costs, as well as participant’s loss of income.
-
+<br/>
 *  The transportation, healthcare, food and accommodation costs per household are calculated via the 2017 data, indexed by inflation annually. See Appendix D for more details regarding the calculation of the value of the lump sum.
-
+<br/>
 * The value of the lump sum is designed to be equal between the four low-risk regions to avoid additional drivers for differential preferences in individuals’ relocation destination.
-
+<br/>
 As such the total cost of the relocation inventive for the program is
-
+<br/>
  $\sum_{t: region 3, 4, 5, 6}$ (10% 𝑅𝑒𝑖𝑚𝑏𝑢𝑟𝑠𝑒𝑚𝑒𝑛𝑡 𝑜𝑓 𝑃𝑒𝑟𝑚𝑎𝑛𝑒𝑛𝑡 𝐻𝑜𝑢𝑠𝑖𝑛𝑔 𝐶𝑜𝑠𝑡 + 50% 𝑅𝑒𝑙𝑜𝑐𝑎𝑡𝑖𝑜𝑛 𝐴𝑠𝑠𝑜𝑐𝑖𝑎𝑡𝑒𝑑 𝐸𝑥𝑝𝑒𝑛𝑠𝑒𝑠) $\*$ 𝑁𝑢𝑚𝑏𝑒𝑟 𝑜𝑓 𝐻𝑜𝑢𝑠𝑒h𝑜𝑙𝑑𝑠 𝑖𝑛𝑡𝑜 𝑅𝑒𝑔𝑖𝑜𝑛 𝑡
+<br/>
 
 ### Involuntary Displacement Costs with the Program
 
@@ -155,7 +156,9 @@ To maintain the program's solvency in the long term, up to 2100, a total capital
 <Figure 4: Capital needed to remain solvent as a % of Storslysia’s GDP>
 </h6>
 
-## Assumptions
+
+
+# Assumptions
 
 ### Economic Assumptions
 A time series analysis on the provided inflation data showed no clear trends, seen below in Figure 5. As such, future levels of inflation were assumed to be a constant, where this constant was calculated by taking the historical average of inflation.
