@@ -81,7 +81,9 @@ In Figure 2 shown above, we can see exponential trends for involuntary costing f
 ### With Program Costing
 
 The costs with the program are examined as two components:
+
 1. The cost to incentivise residents in the high and medium-risk regions to relocate to low-risk regions. This cost includes: the reimbursement of a percentage of the permanent housing cost incurred as a result of relocation and a lump sum payment to account for the temporary loss of income, food and transportation expenses that may occur as a result of relocation.
+
 2. The costs associated with involuntary displacement after climate-related disasters. These include the cost of repairing damaged properties and household goods, temporary living arrangements, as well as emergency food, heath care and transportation services.
 
 ### Population Forecast with the Program
@@ -94,13 +96,17 @@ The cost projection model stems from a population forecast model. Starting with 
 </p>
 
 
+
 The number of households in each region in a particular year (say 2020) is derived by dividing the population by the average number of people per household. The average number of people per household is assumed to be stable over time. The number of vacant housing units is estimated by deducting the number housing units by the number of households.
 Every year, the number of population outflow from Region 1 and 2 are allocated to low-risk regions according to the proportion of vacant housing units in low-risk regions.
+
 The Census data of the next year will then consider the population inflow and outflow on top of the organic population growth. In the meantime, the total housing units every year are calculated using a constant housing unit growth rate, estimated using the number of building permits in 2021. Applying the same process, the Census data can be forecasted recursively.
+
 
 
 ### Relocation Incentive Package
 The program provides a benefit package to incentivise residents to migrate from high and medium-risk regions. This package will include:
+
 1. A 10% reimbursement of the resident’s permanent housing cost.
 
 *  Total projected cost of this benefit in year i will be:
@@ -162,13 +168,16 @@ A time series analysis on the provided inflation data showed no clear trends, se
 <Figure 5: Time Series of Historical Inflation> 
 </h6>
 
+
 ### Pricing Assumptions
 Other economic data such as Census and GDP for Storslysia were assumed to follow the global scenarios provided by the IPCC and the values were projected based on the same assumptions. Linear interpolation was conducted between the years of 2020 and 2030 to project economic data for the respective years.
 Expected Property Damages were similarly projected using the IPCC data on the risk amplification factor (RAF). However, an additional assumption was made that the severity of climate-related catastrophes also followed the RAF. Thus, Expected Property Damages was projected by taking the square of the RAF for the corresponding year.
 The program is available for any citizen of Storslysia, however, we assume that only citizens of high risk-regions choose to relocate under risk-averse conjectures.
 
+
 ### Data Assumptions
 All given data were assumed to be statistical data from 2020 unless stated otherwise. This included housing units and property value distribution. For data where a time range was given (i.e., Households), we assumed the data reflected the most recent year. Another assumption was that entries with zero property damage still counted as a climate-related catastrophe due to any injuries or fatalities that may have occurred.
+
 
 ## Risk and Risk Mitigation
 
@@ -179,6 +188,7 @@ All given data were assumed to be statistical data from 2020 unless stated other
 <h6 align="center"> 
 <Figure 6: Risk Matrix>
 </h6>
+
 
 ### Climate Risk - More climate disasters than anticipated
 
@@ -226,4 +236,4 @@ Due to the prototypical nature of the program, there were issues in estimating c
 ## Conclusion 
 The aim of this program was to reduce emergency displacement-related costs. The increasing frequency and severity of climate-related catastrophes will cause significant consequences to households, both financially and psychologically in the long term. As such, our main initiative was to relocate citizens from higher risk regions, specifically Regions 1 and 2 into lower risk regions. The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years.
 
-![](Actuarial.gif)
+
