@@ -44,6 +44,8 @@ The modelling for expected property damages was split into frequency and severit
 
 Although the data set has provided the actual property damages for 2020, this does not reflect its ‘expected’ value due to the high variance nature of climate-related catastrophes each year. One-hundred bootstrapped models were trained with the optimised parameters to predict frequency and severity of climate-related catastrophes for 2020. The corresponding set of predictions were then multiplied to obtain 100 predictions, shown in Figure 1 below. A 95% confidence interval was calculated to be used for the construction of the program pricing and costs. See Appendix C (Figure 14) for the average predictions and the 95% confidence interval. Climate-related catastrophes were also split into minor, medium and major severities with breakpoints at Ꝕ500,000 and Ꝕ5,000,000.
 
+![Figure 1 1](https://user-images.githubusercontent.com/124782714/228497774-851513ea-cfb7-48d1-baf1-4308ca92c1f4.png)
+
 <p align="center"> 
 <img src="https://user-images.githubusercontent.com/124782714/228497774-851513ea-cfb7-48d1-baf1-4308ca92c1f4.png">
 </p>
@@ -256,9 +258,10 @@ There is risk that inflation will be higher or lower than expected, resulting in
  </h6>
  
  <br/>
- 
+
 
 ## Data and Data Limitations
+
 ### Errors and Inaccuracies
 
 The data supplied contained erroneous and inaccurate entries. For example, the inflation and interest rate data included extreme outliers, missing values and null values. We attempted to correct for these by using averages to fill in erroneous values.
@@ -271,6 +274,7 @@ The hazard events data also lacked granularity. Several weather events were ofte
 ### Novelty of program
 Due to the prototypical nature of the program, there were issues in estimating certain values. There was no historical experience to inform our expectations on how many people may consider voluntary relocation (such as a survey) or any previous experience of such a program occurring in a neighbouring country. This required us to make assumptions based on real-world studies and relocation programs which may not perfectly match each region in its experience of climate disasters or demographic makeup. This results in a potentially wide band of counterfactual possibilities when it comes to several of our assumptions such as how many people are expected to voluntarily relocate.
 
+---
 ## Conclusion 
 The aim of this program was to reduce emergency displacement-related costs. The increasing frequency and severity of climate-related catastrophes will cause significant consequences to households, both financially and psychologically in the long term. As such, our main initiative was to relocate citizens from higher risk regions, specifically Regions 1 and 2 into lower risk regions. The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years.
 
