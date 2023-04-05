@@ -78,6 +78,8 @@ Figure 2: Involuntary Relocation Costing under no Program represented as a % of 
 
 
 In Figure 2 shown above, we can see exponential trends for involuntary costing for high emissions scenario (i.e. SSP3 and SSP5) and will most likely exceed 10% of Storslysia’s GDP after 2100. 
+<br/>
+
 
 
 ---
@@ -89,6 +91,8 @@ The costs with the program are examined as two components:
 
 2. The costs associated with involuntary displacement after climate-related disasters. These include the cost of repairing damaged properties and household goods, temporary living arrangements, as well as emergency food, heath care and transportation services.
 
+<br/>
+
 ### Population Forecast with the Program
 The cost projection model stems from a population forecast model. Starting with the 2020 census data as the base population, it is predicted that 0.5% of the population from Region 2 (high-risk) and 0.25% from Region 1 (medium-risk) will voluntarily move to the low-risk regions (Regions 3, 4, 5, 6) every year from 2020 to 2030. The above percentages are estimated using various survey data regarding individuals’ willingness to move from disaster- prone areas. Assumptions regarding individuals’ response towards relocation beyond 2030 should be made when further data becomes available. Hence, no migration has been included in the model beyond 2023 in this analysis. The population forecast model incorporates the voluntary movement induced by the program as well as the projected organic population growth as set out in each SSP scenario. The below graph captures a snapshot of how this population forecast model functions:
 
@@ -98,7 +102,7 @@ The cost projection model stems from a population forecast model. Starting with 
 
 </p>
 
-
+<br/>
 
 The number of households in each region in a particular year (say 2020) is derived by dividing the population by the average number of people per household. The average number of people per household is assumed to be stable over time. The number of vacant housing units is estimated by deducting the number housing units by the number of households.
 Every year, the number of population outflow from Region 1 and 2 are allocated to low-risk regions according to the proportion of vacant housing units in low-risk regions.
