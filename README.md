@@ -357,5 +357,29 @@ The value of the lump sum benefits is calculated using the following philosophy:
 <p align ="center">
 <img width="523" src="https://user-images.githubusercontent.com/113500025/230865252-7cfcfb00-90a4-4fe5-8a82-dcfeefc900ac.png">
 
+## References 
+CSU. (2016). Voluntary relocation as an adaptation strategy to extreme weather events. Climate Risk Management, 12, 69-81. https://doi.org/10.1016/j.crm.2016.02.001 
 
  
+
+Department of Health and Human Services Victoria. (2010). Victorian Bushfire Appeal Fund: Final report. https://www.dhhs.vic.gov.au/sites/default/files/documents/201710/victorian%20bushfire%20appeal%20report%20Dec-2010.pdf 
+
+ 
+
+IPCC. (2014). Climate change 2014: Impacts, adaptation, and vulnerability. Chapter 14: Adaption needs and options. https://www.ipcc.ch/site/assets/uploads/2018/02/WGIIAR5-Chap14_FINAL.pdf 
+
+ 
+
+Klapdor, M. (2017). Natural disasters and emergency management: Issues and challenges. Parliamentary Library of Australia. https://parlinfo.aph.gov.au/parlInfo/download/library/prspub/7145788/upload_binary/7145788.pdf;fileType=application%2Fpdf#search=%22Klapdor,%20Michael%20%20disasters%22 
+
+ 
+
+Queensland Reconstruction Authority. (2011). Case study: Rebuilding Grantham together. https://www.qra.qld.gov.au/news-case-studies/case-studies/case-study-rebuilding-grantham-together-2011 
+
+ 
+
+UNHCR. (2014). The impact of climate change on displacement. https://www.unhcr.org/54082cc69.pdf 
+
+ 
+
+Salary.com.au. (2019). Relocation for work: A guide to the costs and benefits. https://www.salary.com.au/sites/default/files/ADV_Relocation_Factsheet_Sept2019.pdf 
