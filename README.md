@@ -281,6 +281,84 @@ Due to the prototypical nature of the program, there were issues in estimating c
 ## Conclusion 
 The aim of this program was to reduce emergency displacement-related costs. The increasing frequency and severity of climate-related catastrophes will cause significant consequences to households, both financially and psychologically in the long term. As such, our main initiative was to relocate citizens from higher risk regions, specifically Regions 1 and 2 into lower risk regions. The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years.
 
+Appendix 
 
+A. Reducing the number of categories in ‘Hazard Event’ 
+
+The climate-related catastrophe that was highest on the list which was present in ‘Hazard Event’ is what the entry would be defined as. This priority list was constructed by comparing the means of ‘Hazard Events’ which only contained 1 climate-related catastrophe. This was done as it is difficult to determine which climate-related catastrophes where multiple occurred in the same period were the most prevalent.   
+
+ 
+
+Figure 9: Average Property Damages of Hazard Events with one climate-related catastrophe 
+
+There were exceptions to this rule however, where some climate-related catastrophes only occurred as a pair (i.e. Hurricane and Tropical Storm). As such we had to account for those catastrophes that never occurred independently.  
+
+Priority list: Hurricane, Wildfire, Tornado, Flooding, Winter Weather, Lightning, Severe Storm, Wind, Coastal, Drought, Hail, Heat (Any remaining entries were labelled ‘Other’) 
+
+B. Model Implementation, Optimised Parameters & Importance of Variables 
+
+Severity: The training and testing set were split randomly using an 80:20 split respectively. The parameters were tuned using a Random Search using the ‘caret’ package in R. Given a method for tuning (in our case 5-fold cross validation using RMSE), it takes random samples from a grid of hyperparameters and trains the model. It then chooses the set of parameters that provides the lowest RMSE. This was chosen over an exhaustive search of all possible hyperparameter combinations as the latter technique is computationally expensive.  Figure 10: Optimised Parameters for Severity Model 
+
+ 
+
+Figure 11: Bar plot to indicate relative importance of variables used in the severity model 
+
+Frequency: Before the frequency model was trained. The data frame was expanded such that it contained all possible combinations of Region, Hazard Event, Quarter and Year. The response variable in each row was a count variable containing the frequency of the event. Due to this data expansion, the response variable contained a high number of zeros. As mentioned in the main report, the Tweedie distribution is a distribution that can model count data and account for high number of zero data, making it the objective function when modelling. The parameters were then optimised using the same method as the severity model. 
+
+Figure 12: Optimised Parameters for Frequency Model 
+
+ 
+
+Figure 13: Bar plot to indicate relative Importance of variables used in the frequency model 
+
+ 
+
+C. Prediction Results 
+
+ 
+
+Figure 14: Table representing a 95% confidence interval from the 100 bootstrapped predictions & the average. This table was used as the basis for 2020 expected property damage data. 
+
+ 
+
+Figure 15: Bar plot representing the distribution of minor hazard predictions 
+
+ 
+
+Figure 16: Bar plot representing the distribution of medium hazard predictions 
+
+ 
+
+Figure 17: Bar plot representing the distribution of major hazard predictions 
+
+ 
+
+ 
+
+Figure 18: Cost under different scenarios 
+
+ 
+
+ 
+
+ 
+
+Figure 19: Cost decrease under different scenarios 
+
+ 
+
+ 
+
+ 
+
+ 
+
+Figure 20: Capital needed to remain solvent under different scenarios 
+
+ 
+
+ 
+
+Figure 21: Capital need over % of GDP under different scenarios 
 
 
