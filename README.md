@@ -306,6 +306,56 @@ Priority list: Hurricane, Wildfire, Tornado, Flooding, Winter Weather, Lightning
 <p align="center"> 
 <img width="523" alt="Screenshot 2023-04-08 at 3 10 19 pm" src="https://user-images.githubusercontent.com/113500143/230704412-c24ca9e6-3ac0-4fc2-8d43-b84cc0fb3279.png">
 
- 
- 
+### C. Prediction Results
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230861385-c2629222-c69b-4d22-b0e1-ed84b4d0287e.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230862933-dcc0ba2c-201e-4711-9533-daebb4608b75.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230863418-24c7ff0a-6332-401f-b9f5-f4da6c0618bd.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230863684-4cc83faa-2312-48cc-8cb9-a924355cef67.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230863872-4d7b913e-863f-47b5-92c1-b6d8efd29870.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230864091-1c01c83d-fa73-4092-a515-9f420f818ed6.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230864413-c1af238e-ac57-46dd-97ea-b187b8159f81.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230864542-bd094228-fad6-4719-82f1-e6e990047c4f.png">
+
+### D. Relocation – Lump Sum Benefit Calculation
+The value of the lump sum benefits is calculated using the following philosophy: 
+1.	As an example, the healthcare cost per person for region 3 in 2020 is calculated by first indexing the 2017 health care revenue data (latest available) to reflect the 2020 price level, then divide the resultant 2020 total health care revenue by the 2020 region 3 population.
+2.	Multiply by the average persons per household to obtain the average healthcare cost per household. 
+3.	The same calculation is applied for regions 4, 5 and 6. A simple average is taken to obtain the average healthcare cost. 
+4.	Calculate other potential costs associated with relocation on a household-basis. The sum of which is multiplied by 50% to obtain the value of the lump sum.
+
+### E. Sensitivity Analysis
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230864842-a3c5794a-cdb0-4680-ae45-aecd568ff15f.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230864939-abd5186f-b833-4735-928f-e174e298fd85.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230865006-adffe018-6ed0-4e98-84ef-8d8175f7328f.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230865090-a70188a3-011b-4065-b7ec-a8e73d8d1ff1.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230865164-420701f6-2173-4276-850b-c126229e705f.png">
+
+<p align ="center">
+<img width="523" src="https://user-images.githubusercontent.com/113500025/230865252-7cfcfb00-90a4-4fe5-8a82-dcfeefc900ac.png">
+
+
  
