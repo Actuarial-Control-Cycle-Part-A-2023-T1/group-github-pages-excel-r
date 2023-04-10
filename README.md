@@ -303,36 +303,46 @@ Severity: The training and testing set were split randomly using an 80:20 split 
 Frequency: Before the frequency model was trained. The data frame was expanded such that it contained all possible combinations of Region, Hazard Event, Quarter and Year. The response variable in each row was a count variable containing the frequency of the event. Due to this data expansion, the response variable contained a high number of zeros. As mentioned in the main report, the Tweedie distribution is a distribution that can model count data and account for high number of zero data, making it the objective function when modelling. The parameters were then optimised using the same method as the severity model.
 
 ![image](https://user-images.githubusercontent.com/113500025/230813185-bb68dc10-5ec6-4f23-98f5-5d6106710705.png)
- Figure 12: Optimised Parameters for Frequency Model
+
+Figure 12: Optimised Parameters for Frequency Model
 
 ![image](https://user-images.githubusercontent.com/113500025/230813209-3ec6f95e-a4eb-41d5-96b2-5875dd9c54f4.png)
- Figure 13: Bar plot to indicate relative Importance of variables used in the frequency model
+
+Figure 13: Bar plot to indicate relative Importance of variables used in the frequency model
 
 C. Prediction Results
 
 ![image](https://user-images.githubusercontent.com/113500025/230813232-201c3479-7e16-41b2-b6b4-2037cb410c17.png)
- Figure 14: Table representing a 95% confidence interval from the 100 bootstrapped predictions & the average. This table was used as the basis for 2020 expected property damage data.
+
+Figure 14: Table representing a 95% confidence interval from the 100 bootstrapped predictions & the average. This table was used as the basis for 2020 expected property damage data.
 
 ![image](https://user-images.githubusercontent.com/113500025/230813253-b725f320-0c17-4767-8148-c4f96b65a7bc.png)
- Figure 15: Bar plot representing the distribution of minor hazard predictions
+
+Figure 15: Bar plot representing the distribution of minor hazard predictions
 
 ![image](https://user-images.githubusercontent.com/113500025/230813266-f11c7af2-d5e2-4e4f-b010-a40bf88c5838.png)
- Figure 16: Bar plot representing the distribution of medium hazard predictions
+
+Figure 16: Bar plot representing the distribution of medium hazard predictions
 
 ![image](https://user-images.githubusercontent.com/113500025/230813284-a04791cf-d0a5-41fa-81c9-be78a049f3dc.png)
- Figure 17: Bar plot representing the distribution of major hazard predictions
+
+Figure 17: Bar plot representing the distribution of major hazard predictions
 
 ![image](https://user-images.githubusercontent.com/113500025/230813311-f7ec0401-e45c-44fe-91e1-8bb5738b7a5d.png)
- Figure 18: Cost under different scenarios
+
+Figure 18: Cost under different scenarios
 
 ![image](https://user-images.githubusercontent.com/113500025/230813322-aac3af59-1b0f-4f81-be36-b04d53c1557b.png)
- Figure 19: Cost decrease under different scenarios
+
+Figure 19: Cost decrease under different scenarios
 
 ![image](https://user-images.githubusercontent.com/113500025/230813334-8983a8a9-023f-482a-9426-16061fda9ba1.png)
- Figure 20: Capital needed to remain solvent under different scenarios
+
+Figure 20: Capital needed to remain solvent under different scenarios
 
 ![image](https://user-images.githubusercontent.com/113500025/230813347-81cd6a0e-efec-4a65-8f73-8c09bc4fbd81.png)
- Figure 21: Capital need over % of GDP under different scenarios
+
+Figure 21: Capital need over % of GDP under different scenarios
 
 
 
