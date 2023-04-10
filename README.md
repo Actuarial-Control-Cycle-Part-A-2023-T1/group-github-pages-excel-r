@@ -135,7 +135,7 @@ The program provides a benefit package to incentivise residents to migrate from 
 
 <br/>
 
-*The transportation, healthcare, food and accommodation costs per household are calculated via the 2017 data, indexed by inflation annually. See Appendix D for more details regarding the calculation of the value of the lump sum.
+* The transportation, healthcare, food and accommodation costs per household are calculated via the 2017 data, indexed by inflation annually. See Appendix D for more details regarding the calculation of the value of the lump sum.
 
 <br/>
 
@@ -204,14 +204,8 @@ Other economic data such as Census and GDP for Storslysia were assumed to follow
 Expected Property Damages were similarly projected using the IPCC data on the risk amplification factor (RAF). However, an additional assumption was made that the severity of climate-related catastrophes also followed the RAF. Thus, Expected Property Damages was projected by taking the square of the RAF for the corresponding year.
 The program is available for any citizen of Storslysia, however, we assume that only citizens of high risk-regions choose to relocate under risk-averse conjectures.
 
-<br/>
-
-
 ### Data Assumptions
 All given data were assumed to be statistical data from 2020 unless stated otherwise. This included housing units and property value distribution. For data where a time range was given (i.e., Households), we assumed the data reflected the most recent year. Another assumption was that entries with zero property damage still counted as a climate-related catastrophe due to any injuries or fatalities that may have occurred.
-
-<br/>
-
 
 ## Risk and Risk Mitigation
 
@@ -242,9 +236,6 @@ More people than expected may opt to use the program which could jeopardise its 
 Figure 7: Relocation % Involuntary Difference (SSP5)
 </h6>
 
-<br/>
-
-
 ### Inflation Rate Risk
 
 There is risk that inflation will be higher or lower than expected, resulting in the total relocation program exceeding budget constraints. If the costs become too high, this could also affect the viability of other expenditure items Storslysia is committed to delivering - weakening the economy and creating political risk for the current government. To address this, we conducted sensitivity analyses to determine the impact of changing inflation rates (see Figure 8). The program exceeds 10% of GDP at high inflation rates in the distant future (2090 and onwards). To mitigate this risk, Storslysia should closely monitor inflation throughout the years and anticipate the need to cover for the shortfall if necessary, such as through raising taxes.
@@ -256,9 +247,6 @@ There is risk that inflation will be higher or lower than expected, resulting in
  <h6 align="center"> 
  Figure 8: Sensitivity Analysis – Program Cost as % of GDP (SSP5)
  </h6>
- 
- <br/>
-
 
 ## Data and Data Limitations
 
