@@ -1,14 +1,12 @@
 # Relocation Social Insurance Case Study (Excel > R )@ UNSW
 
----
-
 ## Executive Summary
 The increasing frequency and severity of climate-related catastrophes have the potential to cause significant consequences to households, both financially and psychologically. This report seeks to propose a recommendation for a new social insurance program for Storslysia to mitigate such consequences. The key objectives of the social insurance program are first outlined before providing insights on the program design. After an outline of the social insurance program, further analysis on the costing of the program is performed, followed by an examination on key assumptions, risks, and limitations of the analysis. Based on such investigations, we conclude that the introduction of a social insurance program would be beneficial to Storslysia.
 
 ## Objectives of Proposed Social Insurance Program
 
-In line with the required targets set by the task force in Storslysia, the proposed social insurance program has two main objectives:
-I. To incentivise permanent voluntary relocation for those individuals residing in high and medium risk regions to low-risk regions; and
+In line with the required targets set by the task force in Storslysia, the proposed social insurance program has two main objectives:<br />
+I. To incentivise permanent voluntary relocation for those individuals residing in high and medium risk regions to low-risk regions; and<br />
 II. To reduce the economic and psychological costs for households from displacement caused by the increasing environmental disasters in Storslysia
 In addition to the above objectives, we further suggest specific key performance indicators (KPIs) to monitor the success of the program. These main KPIs include the number of people who have voluntarily relocated from a high-risk region to a low-risk region, the reduction in financial cost caused by the program and surveys to collect feedback from those who have used the program to relocate voluntarily. By monitoring such KPIs on a yearly basis in the short term, and on a 5 yearly basis in the long term, the program’s success will be continually monitored, and the program will be adjusted accordingly.
 
@@ -25,14 +23,14 @@ In the event of an eligible application, the proposed social insurance program p
 We propose the program be evaluated yearly for 5 years, before being evaluated on a 5 yearly basis afterwards. To justify this timeline of program evaluation, several factors such as the timeframe since the launch of the program, target audience and the type of insurance product was considered in our actuarial judgement. Given that the proposed insurance program targets climate risk which identifies as a long-term risk and the target audience is large spanning over 10 million individuals in 2020, assuming that those in low-risk regions do not use the program, we believe a yearly evaluation is appropriate. Once the program eases into the community, and cost projections are on track to an appropriate extent, we then propose the program to be monitored every 5 years whereby the government may make further amendments to the program.
 
 ## Pricing and Costing
----
+
 The economic costs are projected over both a short-term and a long-term timeframe. In the short-term, the costs with and without the program are forecasted on an annual basis from 2021 to 2030. Henceforth the costs are projected every decade until 2100.
 The economic cost of a climate hazard event is a complex phenomenon that is influenced by several factors, including the severity and duration of the event, the location and extent of the damage, and the economic and social structures in the affected area. The costs can be direct or indirect, and in this study, we investigate the economic costs of climate hazards in terms of:
 * property damage,
 * displacement and relocation costs,
 * healthcare and social assistance costs,
 * transportation and warehousing costs, and
-*  food service.
+* food service.
 
 To estimate the costs associated with property damage, we use Extreme Gradient Boosting to estimate the damage in different regions:
 
@@ -81,7 +79,6 @@ In Figure 2 shown above, we can see exponential trends for involuntary costing f
 
 
 
----
 ## With Program Costing
 
 The costs with the program are examined as two components:
@@ -117,7 +114,7 @@ The program provides a benefit package to incentivise residents to migrate from 
 
 <br/>
 
-*  Total projected cost of this benefit in year i will be:
+* Total projected cost of this benefit in year i will be:
 
 <br/>
 
@@ -125,11 +122,11 @@ The program provides a benefit package to incentivise residents to migrate from 
   
 <br/>
 
-*  Where the number of households moving into region t is estimated as the total number of people migrating into region t $/$ average number of people per household in region t.
+* Where the number of households moving into region t is estimated as the total number of people migrating into region t $/$ average number of people per household in region t.
 
 <br/>
 
-*  The property cost is estimated as the weighted average property value in region t, indexed by inflation annually.
+* The property cost is estimated as the weighted average property value in region t, indexed by inflation annually.
 
 <br/>
 
@@ -138,7 +135,7 @@ The program provides a benefit package to incentivise residents to migrate from 
 
 <br/>
 
-*  The transportation, healthcare, food and accommodation costs per household are calculated via the 2017 data, indexed by inflation annually. See Appendix D for more details regarding the calculation of the value of the lump sum.
+*The transportation, healthcare, food and accommodation costs per household are calculated via the 2017 data, indexed by inflation annually. See Appendix D for more details regarding the calculation of the value of the lump sum.
 
 <br/>
 
@@ -146,7 +143,7 @@ The program provides a benefit package to incentivise residents to migrate from 
 
 <br/>
 
-As such the total cost of the relocation inventive for the program is
+As such the total cost of the relocation inventive for the program is:
 
 <br/>
 
@@ -277,11 +274,11 @@ The hazard events data also lacked granularity. Several weather events were ofte
 ### Novelty of program
 Due to the prototypical nature of the program, there were issues in estimating certain values. There was no historical experience to inform our expectations on how many people may consider voluntary relocation (such as a survey) or any previous experience of such a program occurring in a neighbouring country. This required us to make assumptions based on real-world studies and relocation programs which may not perfectly match each region in its experience of climate disasters or demographic makeup. This results in a potentially wide band of counterfactual possibilities when it comes to several of our assumptions such as how many people are expected to voluntarily relocate.
 
----
+
 ## Conclusion 
 The aim of this program was to reduce emergency displacement-related costs. The increasing frequency and severity of climate-related catastrophes will cause significant consequences to households, both financially and psychologically in the long term. As such, our main initiative was to relocate citizens from higher risk regions, specifically Regions 1 and 2 into lower risk regions. The implementation of the program has resulted in a notable decline in the involuntary costs associated with climate hazards over the years.
 
----
+
 ## Appendix
 
 ### A. Reducing the number of categories in ‘Hazard Event’
